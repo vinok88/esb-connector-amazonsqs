@@ -427,6 +427,11 @@ public class AmazonSQSConstants {
      * Constant for x-amz-Date.
      */
     public static final String AMZ_DATE = "uri.var.amzDate";
+
+    /**
+     * Constant for x-amz-Target.
+     */
+    public static final String AMZ_TARGET = "uri.var.amzTarget";
     
     /**
      * Constant for API variable x-amz-Date.
@@ -587,6 +592,16 @@ public class AmazonSQSConstants {
      * Constant for Request Entries.
      */
     public static final String REQUEST_ENTRIES = "uri.var.requestEntries";
+
+    /**
+     * Constant for Request Entries.
+     */
+    public static final String REQUEST_TARGET = "x-amz-target";
+
+    /**
+     * Constant for Request Entries.
+     */
+    public static final String REQUEST_AMZ_TARGET = "uri.var.target";
     
     /**
      * Constant for MEssage Body.
